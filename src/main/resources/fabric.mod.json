@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "craftlist",
+  "version": "${version}",
+  "name": "Craftlist",
+  "description": "A material list for crafting",
+  "authors": [
+    "cursedarcangel"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/craftlist/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.cursedarcangel.craftlist.client.CraftlistClient"
+    ],
+    "main": [
+      "com.cursedarcangel.craftlist.Craftlist"
+    ]
+  },
+  "mixins": [
+    "craftlist.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
