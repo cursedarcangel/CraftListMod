@@ -1,24 +1,24 @@
 {
-  "nether brick": {
+  "nether bricks": {
      "nether brick": 4
   },
-  "red nether brick": {
+  "red nether bricks": {
      "nether brick": 2,
      "nether wart": 2
   },
-  "chiseled nether brick": {
+  "chiseled nether bricks": {
      "nether brick slab": 2
   },
   "block of quartz": {
      "quartz": 4
   },
-  "chiseled quartz block": {
+  "chiseled quartz blocks": {
      "quartz slab": 2
   },
   "quartz pillar": {
      "block of quartz": 2
   },
-  "quartz brick": {
+  "quartz bricks": {
      "block of quartz": 4
   },
   "hay bale": {
@@ -135,7 +135,7 @@
   "coal block": {
      "coal": 9
   },
-  "polished blackstone brick": {
+  "polished blackstone brickx": {
      "polished blackstone": 4
   },
   "chain": {
@@ -158,10 +158,10 @@
      "glass": 1,
      "dye": 0.125
   },
-  "stair": {
+  "stairs": {
      "material of your choice": 1.5
   },
-  "brick": {
+  "bricks": {
      "bricks": 4
   },
   "diamond block": {
@@ -202,10 +202,10 @@
   "melon": {
      "melon slices": 9
   },
-  "stone brick": {
+  "stone bricks": {
      "stone": 4
   },
-  "mossy stone brick": {
+  "mossy stone bricks": {
      "stone bricks": 1,
      "vines": 1
   },
@@ -347,7 +347,7 @@
      "planks": 8,
      "diamond": 1
   },
-  "stained glass pane": {
+  "stained glass panes": {
      "glass pane": 8,
      "dye": 1
   },
@@ -431,9 +431,6 @@
   "pressure plate": {
      "material of your choice": 0.5
   },
-  "wooden trapdoor": {
-     "planks": 3
-  },
   "iron trapdoor": {
      "iron ingot": 4
   },
@@ -467,7 +464,7 @@
      "tnt": 1,
      "minecart": 1
   },
-  "activator rail": {
+  "activator rails": {
      "iron ingot": 1,
      "redstone torch": 0.166667,
      "stick": 0.33334
@@ -483,12 +480,12 @@
      "minecart": 1,
      "chest": 1
   },
-  "powered rail": {
+  "powered rails": {
      "gold ingot": 1,
      "stick": 0.16667,
      "redstone": 0.16667
   },
-  "detector rail": {
+  "detector rails": {
      "iron ingot": 1,
      "pressure plate": 0.16667,
      "redstone": 0.16667
@@ -529,7 +526,7 @@
      "brown mushroom": 1,
      "bowl": 1
   },
-  "cookie": {
+  "cookies": {
      "cocoa beans": 0.125,
      "wheat": 0.25
   },
@@ -706,7 +703,7 @@
      "stick": 0.33334,
      "planks": 2
   },
-  "rail": {
+  "rails": {
      "iron": 0.375,
      "sticks": 0.0625
   },
@@ -716,7 +713,7 @@
   "trapdoor": {
      "planks": 3
   },
-  "glass pane": {
+  "glass panes": {
      "glass": 0.375
   }
 }
