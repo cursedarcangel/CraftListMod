@@ -2,7 +2,7 @@ package com.cursedarcangel.craftlist;
 
 import com.google.gson.Gson;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
+import net.fabricmc.fabric.api.client.command.v1.ClientCommandManager;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.network.MessageType;
 import net.minecraft.text.Text;
@@ -15,26 +15,25 @@ import java.util.Map;
 
 import static com.mojang.brigadier.arguments.IntegerArgumentType.getInteger;
 import static com.mojang.brigadier.arguments.IntegerArgumentType.integer;
-import static com.mojang.brigadier.arguments.StringArgumentType.getString;
-import static com.mojang.brigadier.arguments.StringArgumentType.string;
-import static net.minecraft.server.command.CommandManager.argument;
-import static net.minecraft.server.command.CommandManager.literal;
+import static com.mojang.brigadier.arguments.StringArgumentType.*;
+import static net.fabricmc.fabric.api.client.command.v1.ClientCommandManager.argument;
+import static net.fabricmc.fabric.api.client.command.v1.ClientCommandManager.literal;
 
 public class Craftlist implements ModInitializer {
     @Override
     public void onInitialize() {
-        CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
-            dispatcher.register(literal("craftlist")
-                    .then(argument("item", string())
-                            .then(argument("count", integer())
-                                    .executes(context -> {
-                                        String item = getString(context, "item");
-                                        int count = getInteger(context, "count");
-                                        parse(item, count);
-                                        return 1;
-                                    }))
-                    ));
-        });
+
+        MinecraftClient mc = MinecraftClient.getInstance();
+        ClientCommandManager.DISPATCHER.register(
+                literal("craftlist")
+                        .then(argument("item", string())
+                                .then(argument("amount", integer())
+                                        .executes(ctx -> {
+                                            String item = getString(ctx, "item");
+                                            int count = getInteger(ctx, "amount");
+                                            parse(item, count);
+                                            return 1;
+                                        }))));
     }
     public static void parse(String item, int amount){
         Gson gson = new Gson();
