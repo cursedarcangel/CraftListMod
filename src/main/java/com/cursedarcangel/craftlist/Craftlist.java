@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.command.v1.ClientCommandManager;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.item.ItemStack;
 import net.minecraft.network.MessageType;
 import net.minecraft.text.Text;
 
@@ -18,6 +19,8 @@ import static com.mojang.brigadier.arguments.IntegerArgumentType.integer;
 import static com.mojang.brigadier.arguments.StringArgumentType.*;
 import static net.fabricmc.fabric.api.client.command.v1.ClientCommandManager.argument;
 import static net.fabricmc.fabric.api.client.command.v1.ClientCommandManager.literal;
+import static net.minecraft.command.argument.ItemStackArgumentType.getItemStackArgument;
+import static net.minecraft.command.argument.ItemStackArgumentType.itemStack;
 
 public class Craftlist implements ModInitializer {
     @Override
@@ -38,10 +41,10 @@ public class Craftlist implements ModInitializer {
         MinecraftClient mc = MinecraftClient.getInstance();
         ClientCommandManager.DISPATCHER.register(
                 literal("craftlist")
-                        .then(argument("item", string())
+                        .then(argument("item", itemStack())
                                 .then(argument("amount", integer())
                                         .executes(ctx -> {
-                                            String item = getString(ctx, "item");
+                                            String item = String.valueOf(getItemStackArgument(ctx, "item").createStack(1, false).toString().split(" ")[1]);
                                             int amount = getInteger(ctx, "amount");
                                             Map<String, Double> mats = (Map<String, Double>) materialsPerItem.get(item);
                                             if (mats == null) {
