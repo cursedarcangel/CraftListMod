@@ -1,719 +1,1668 @@
 {
-  "nether bricks": {
-     "nether brick": 4
-  },
-  "red nether bricks": {
-     "nether brick": 2,
-     "nether wart": 2
-  },
-  "chiseled nether bricks": {
-     "nether brick slab": 2
-  },
-  "block of quartz": {
-     "quartz": 4
-  },
-  "chiseled quartz blocks": {
-     "quartz slab": 2
-  },
-  "quartz pillar": {
-     "block of quartz": 2
-  },
-  "quartz bricks": {
-     "block of quartz": 4
-  },
-  "hay bale": {
-     "wheat": 9
-  },
-  "dyed carpet": {
-     "white carpet": 8,
-     "dye": 1
-  },
-  "dyed terracotta": {
-     "terracotta": 8,
-     "dye": 1
-  },
-  "packed ice": {
-     "ice": 9
-  },
-  "granite": {
-     "diorite": 1,
-     "quartz": 1
-  },
-  "polished granite": {
-     "granite": 4
-  },
-  "diorite": {
-     "cobblestone": 2,
-     "quartz": 2
-  },
-  "polished diorite": {
-     "diorite": 4
-  },
-  "sea lantern": {
-     "prismarine shards": 4,
-     "prismarine crystals": 5
-  },
-  "coarse dirt": {
-     "dirt": 2,
-     "gravel": 2
-  },
-  "andesite": {
-     "cobblestone": 1,
-     "diorite": 1
-  },
-  "polished andesite": {
-     "andesite": 4
-  },
-  "prismarine": {
-     "prismarine shards": 4
-  },
-  "prismarine brick": {
-     "prismarine shards": 9
-  },
-  "dark prismarine": {
-     "prismarine shards": 8,
-     "black dye": 1
-  },
-  "magma block": {
-     "magma cream": 4
-  },
-  "end stone brick": {
-     "endstone": 4
-  },
-  "end stone brick slab": {
-     "end stone brick": 3
-  },
-  "end stone brick wall": {
-     "end stone brick": 6
-  },
-  "bone block": {
-     "bonemeal": 9
-  },
-  "nether wart block": {
-     "nether wart": 9
-  },
-  "purpur block": {
-     "popped chorus fruit": 4
-  },
-  "purpur pillar": {
-     "purpur slab": 2
-  },
-  "concrete powder": {
-     "sand": 4,
-     "gravel": 4,
-     "dye": 1
-  },
-  "blue ice": {
-     "packed ice": 9
-  },
-  "conduit": {
-     "heart of the sea": 1,
-     "nautilus shell": 8
-  },
-  "dried kelp block": {
-     "dried kelp": 9
-  },
-  "wood": {
-     "log": 4
-  },
-  "hyphae": {
-     "stem": 4
-  },
-  "stripped wood": {
-     "stripped log": 4
-  },
-  "stripped hyphae": {
-     "stripped stem": 4
-  },
-  "emerald block": {
-     "emerald": 9
-  },
-  "stonecutter": {
-     "iron": 1,
-     "stone": 3
-  },
-  "coal block": {
-     "coal": 9
-  },
-  "polished blackstone brickx": {
-     "polished blackstone": 4
-  },
-  "chain": {
-     "iron nugget": 2,
-     "iron ingot": 1
-  },
-  "netherite block": {
-     "netherite ingot": 9
-  },
-  "polished blackstone": {
-     "blackstone": 4
-  },
-  "chiseled polished blackstone": {
-     "polished blackstone slab": 2
-  },
-  "gold block": {
-     "gold ingot": 9
-  },
-  "stained glass": {
-     "glass": 1,
-     "dye": 0.125
-  },
-  "stairs": {
-     "material of your choice": 1.5
-  },
-  "bricks": {
-     "bricks": 4
-  },
-  "diamond block": {
-     "diamond": 9
-  },
-  "bookshelf": {
-     "plank": 6,
-     "books": 3
-  },
-  "snow block": {
-     "snowballs": 4
-  },
-  "clay": {
-     "clay ball": 4
-  },
-  "jack o lantern": {
-     "carved pumpkin": 1,
-     "torch": 1
-  },
-  "glowstone": {
-     "glowstone dust": 4
-  },
-  "lapis lazuli block": {
-     "lapis lazuli": 9
-  },
-  "sandstone": {
-     "sand": 4
-  },
-  "cut sandstone": {
-     "sandstone": 4
-  },
-  "chiseled sandstone": {
-     "sandstone slab": 2
-  },
-  "slab": {
-     "material of your choice": 0.5
-  },
-  "melon": {
-     "melon slices": 9
-  },
-  "stone bricks": {
-     "stone": 4
-  },
-  "mossy stone bricks": {
-     "stone bricks": 1,
-     "vines": 1
-  },
-  "iron block": {
-     "iron ingot": 9
-  },
-  "cartography table": {
-     "planks": 4,
-     "paper": 2
-  },
-  "wool": {
-     "string": 4
-  },
-  "plank": {
-     "log": 0.25
-  },
-  "scaffolding": {
-     "bamboo": 6,
-     "string": 1
-  },
-  "end crystal": {
-     "glass": 7,
-     "eye of ender": 1,
-     "ghast tear": 1
-  },
-  "ender chest": {
-     "obsidian": 8,
-     "eye of ender": 1
-  },
-  "wall": {
-     "material of your choice": 6
-  },
-  "trapped chest": {
-     "chest": 1,
-     "tripwire hook": 1
-  },
-  "item frame": {
-     "stick": 8,
-     "leather": 1
-  },
-  "bed": {
-     "wool": 3,
-     "planks": 3
-  },
-  "banner": {
-     "wool": 6,
-     "stick": 1
-  },
-  "slime block": {
-     "slime ball": 9
-  },
-  "shulker box": {
-     "chest": 1,
-     "shulker shell": 2
-  },
-  "campfire": {
-     "stick": 3,
-     "log": 3,
-     "coal/charcoal": 1
-  },
-  "soul campfire": {
-     "stripped log/stem": 3,
-     "soul sand/soil": 1,
-     "stick": 3
-  },
-  "loom": {
-     "string": 2,
-     "plank": 4
-  },
-  "barrel": {
-     "planks": 6,
-     "wood slab": 2
-  },
-  "smoker": {
-     "furnace": 1,
-     "log/wood/stripped log/stripped wood": 4
-  },
-  "flower pot": {
-     "bricks": 3
-  },
-  "lantern": {
-     "iron nugget": 8,
-     "torch": 1
-  },
-  "soul lantern": {
-     "iron nugget": 8,
-     "soul torch": 1
-  },
-  "furnace": {
-     "cobblestone/blackstone": 8
-  },
-  "honey block": {
-     "honey bottle": 4
-  },
-  "grindstone": {
-     "planks": 2,
-     "sticks": 2,
-     "stone slab": 1
-  },
-  "lodestone": {
-     "chiseled stone brick": 8,
-     "netherite ingot": 1
-  },
-  "beehive": {
-     "planks": 6,
-     "beeswax": 3
-  },
-  "anvil": {
-     "iron block": 3,
-     "iron ingot": 4
-  },
-  "end rod": {
-     "blaze rod": 0.25,
-     "popped chorus fruit": 0.25
-  },
-  "torch": {
-     "coal/charcoal": 0.25,
-     "stick": 0.25
-  },
-  "soul torch": {
-     "coal/charcoal": 0.25,
-     "stick": 0.25,
-     "soul sand/soil": 0.25
-  },
-  "chest": {
-     "planks": 8
-  },
-  "painting": {
-     "stick": 8,
-     "wool": 1
-  },
-  "crafting table": {
-     "planks": 4
-  },
-  "snow": {
-     "snow block": 0.5
-  },
-  "jukebox": {
-     "planks": 8,
-     "diamond": 1
-  },
-  "stained glass panes": {
-     "glass pane": 8,
-     "dye": 1
-  },
-  "blast furnace": {
-     "furnace": 1,
-     "smooth stone": 3,
-     "iron ingot": 5
-  },
-  "enchanting table": {
-     "diamond": 2,
-     "obsidian": 4,
-     "book": 1
-  },
-  "dropper": {
-     "cobblestone": 7,
-     "redstone": 1
-  },
-  "redstone lamp": {
-     "glowstone": 1,
-     "redstone": 4
-  },
-  "daylight sensor": {
-     "glass": 3,
-     "quartz": 3,
-     "wood slab": 3
-  },
-  "piston": {
-     "cobblestone": 4,
-     "planks": 3,
-     "iron": 1,
-     "redstone": 1
-  },
-  "sticky piston": {
-     "slimeball": 1,
-     "piston": 1
-  },
-  "redstone block": {
-     "redstone": 9
-  },
-  "door": {
-     "material of your choice": 2
-  },
-  "hopper": {
-     "iron ingot": 5,
-     "chest": 1
-  },
-  "lectern": {
-     "slab": 4,
-     "bookshelf": 1
-  },
-  "comparator": {
-     "redstone torch": 3,
-     "stone": 3,
-     "quartz": 1
-  },
-  "target block": {
-     "hay block": 1,
-     "redstone": 4
-  },
-  "tripwire hook": {
-     "iron ingot": 0.5,
-     "plank": 0.5,
-     "stick": 0.5
-  },
-  "observer": {
-     "cobblestone": 6,
-     "redstone": 2,
-     "quartz": 1
-  },
-  "lever": {
-     "stick": 1,
-     "cobblestone": 1
-  },
-  "button": {
-     "material of your choice": 1
-  },
-  "redstone torch": {
-     "stick": 1,
-     "redstone": 1
-  },
-  "pressure plate": {
-     "material of your choice": 0.5
-  },
-  "iron trapdoor": {
-     "iron ingot": 4
-  },
-  "repeater": {
-     "redstone torch": 2,
-     "redstone": 1,
-     "stone": 3
-  },
-  "fence gate": {
-     "planks": 2,
-     "sticks": 4
-  },
-  "note block": {
-     "redstone": 1,
-     "planks": 8
-  },
-  "dispenser": {
-     "bow": 1,
-     "cobblestone": 7,
-     "redstone": 1
-  },
-  "tnt": {
-     "sand": 4,
-     "gunpowder": 5
-  },
-  "carrot on a stick": {
-     "fishing rod": 1,
-     "carrot": 1
-  },
-  "tnt minecart": {
-     "tnt": 1,
-     "minecart": 1
-  },
-  "activator rails": {
-     "iron ingot": 1,
-     "redstone torch": 0.166667,
-     "stick": 0.33334
-  },
-  "hopper minecart": {
-     "minecart": 1,
-     "hopper": 1
-  },
-  "boat": {
-     "overworld planks": 5
-  },
-  "chest minecart": {
-     "minecart": 1,
-     "chest": 1
-  },
-  "powered rails": {
-     "gold ingot": 1,
-     "stick": 0.16667,
-     "redstone": 0.16667
-  },
-  "detector rails": {
-     "iron ingot": 1,
-     "pressure plate": 0.16667,
-     "redstone": 0.16667
-  },
-  "minecart": {
-     "iron ingot": 5
-  },
-  "furnace minecart": {
-     "minecart": 1,
-     "furnace": 1
-  },
-  "golden carrot": {
-     "carrot": 1,
-     "golden nuggets": 8
-  },
-  "cake": {
-     "milk bucket": 3,
-     "sugar": 2,
-     "egg": 1,
-     "wheat": 3
-  },
-  "beetroot soup": {
-     "beets": 6,
-     "bowl": 1
-  },
-  "rabbit stew": {
-     "cooked rabbit": 1,
-     "carrot": 1,
-     "baked potato": 1,
-     "mushroom": 1,
-     "bowl": 1
-  },
-  "bread": {
-     "wheat": 3
-  },
-  "mushroom stew": {
-     "red mushroom": 1,
-     "brown mushroom": 1,
-     "bowl": 1
-  },
-  "cookies": {
-     "cocoa beans": 0.125,
-     "wheat": 0.25
-  },
-  "pumpkin pie": {
-     "egg": 1,
-     "sugar": 1,
-     "pumpkin": 1
-  },
-  "suspicious stew": {
-     "red mushroom": 1,
-     "brown mushroom": 1,
-     "bowl": 1,
-     "any flower": 1
-  },
-  "golden apple": {
-     "apple": 1,
-     "gold ingot": 8
-  },
-  "lead": {
-     "string": 2,
-     "slimeball": 0.5
-  },
-  "flint and steel": {
-     "flint": 1,
-     "iron ingot": 1
-  },
-  "hoe": {
-     "stick": 2,
-     "meterial of your choice": 2
-  },
-  "axe": {
-     "stick": 2,
-     "material of your choice": 3
-  },
-  "pickaxe": {
-     "stick": 2,
-     "material of your choice": 3
-  },
-  "shovel": {
-     "stick": 2,
-     "material of your choice": 1
-  },
-  "compass": {
-     "iron ingot": 4,
-     "redstone": 1
-  },
-  "fishing rod": {
-     "stick": 2,
-     "string": 3
-  },
-  "shears": {
-     "iron ingot": 2
-  },
-  "clock": {
-     "gold ingot": 4,
-     "redstone": 1
-  },
-  "shield": {
-     "planks": 6,
-     "iron": 1
-  },
-  "crossbow": {
-     "tripwire hook": 1,
-     "iron ingot": 1,
-     "stick": 3,
-     "string": 2
-  },
-  "bow": {
-     "sticks": 3,
-     "string": 3
-  },
-  "boots": {
-     "material of your choice": 4
-  },
-  "leggings": {
-     "material of your choice": 7
-  },
-  "helmet": {
-     "material of your choice": 5
-  },
-  "arrow": {
-     "flint": 0.25,
-     "arrow": 0.25,
-     "feather": 0.25
-  },
-  "spectral arrow": {
-     "arrow": 0.5,
-     "glowstone dust": 2
-  },
-  "sword": {
-     "stick": 1,
-     "material of your choice": 2
-  },
-  "chestplate": {
-     "material of your choice": 8
-  },
-  "glass bottle": {
-     "glass": 1
-  },
-  "blaze powder": {
-     "blaze rod": 0.5
-  },
-  "glistering melon slice": {
-     "melon slice": 1,
-     "golden nuggets": 8
-  },
-  "magma cream": {
-     "blaze powder": 1,
-     "slime balls": 1
-  },
-  "brewing stand": {
-     "cobblestone/blackstone": 3,
-     "blaze rod": 1
-  },
-  "fermented spider eye": {
-     "spider eye": 1,
-     "brown mushroom": 1,
-     "sugar": 1
-  },
-  "cauldron": {
-     "iron ingots": 7
-  },
-  "bowl": {
-     "planks": 0.75
-  },
-  "fire charge": {
-     "coal": 1,
-     "blaze powder": 1,
-     "gunpowder": 1
-  },
-  "firework": {
-     "paper": 1,
-     "gunpowder": 1
-  },
-  "paper": {
-     "sugarcane": 1
-  },
-  "beacon": {
-     "glass": 5,
-     "obsidian": 3,
-     "nether star": 1
-  },
-  "eye of ender": {
-     "ender pearl": 1,
-     "blaze powder": 1
-  },
-  "composter": {
-     "wood slab": 7
-  },
-  "empty map": {
-     "paper": 8,
-     "compass": 1
-  },
-  "bucket": {
-     "iron ingots": 3
-  },
-  "book and quill": {
-     "book": 1,
-     "ink sac": 1,
-     "feather": 1
-  },
-  "book": {
-     "paper": 3,
-     "leather": 1
-  },
-  "fence": {
-     "stick": 0.66667,
-     "plank": 1.33334
-  },
-  "stick": {
-     "plank": 0.5
-  },
-  "sign": {
-     "stick": 0.33334,
-     "planks": 2
-  },
-  "rails": {
-     "iron": 0.375,
-     "sticks": 0.0625
-  },
-  "iron bar": {
-     "iron ingots": 0.375
-  },
-  "trapdoor": {
-     "planks": 3
-  },
-  "glass panes": {
-     "glass": 0.375
-  }
+    "nether_bricks": {
+        "nether brick": 4
+    },
+    "red_nether_bricks": {
+        "nether brick": 2,
+        "nether wart": 2
+    },
+    "chiseled_nether_bricks": {
+        "nether brick slab": 2
+    },
+    "quartz_block": {
+        "quartz": 4
+    },
+    "chiseled_quartz_block": {
+        "quartz slab": 2
+    },
+    "quartz_pillar": {
+        "block of quartz": 2
+    },
+    "quartz_bricks": {
+        "block of quartz": 4
+    },
+    "hay_bale": {
+        "wheat": 9
+    },
+    "dyed_carpet": {
+        "white carpet": 8,
+        "dye": 1
+    },
+    "white_carpet": {
+        "white wool": 0.6666667
+    },
+    "orange_carpet": {
+        "orange wool": 0.6666667
+    },
+    "magenta_carpet": {
+        "magenta wool": 0.6666667
+    },
+    "light_blue_carpet": {
+        "light blue wool": 0.6666667
+    },
+    "yellow_carpet": {
+        "yellow wool": 0.6666667
+    },
+    "lime_carpet": {
+        "lime wool": 0.6666667
+    },
+    "pink_carpet": {
+        "pink wool": 0.6666667
+    },
+    "gray_carpet": {
+        "gray wool": 0.6666667
+    },
+    "light_gray_carpet": {
+        "light gray wool": 0.6666667
+    },
+    "cyan_carpet": {
+        "cyan wool": 0.6666667
+    },
+    "purple_carpet": {
+        "purple wool": 0.6666667
+    },
+    "blue_carpet": {
+        "blue wool": 0.6666667
+    },
+    "brown_carpet": {
+        "brown wool": 0.6666667
+    },
+    "green_carpet": {
+        "green wool": 0.6666667
+    },
+    "red_carpet": {
+        "red wool": 0.6666667
+    },
+    "black_carpet": {
+        "black wool": 0.6666667
+    },
+    "white_terracotta": {
+        "white dye": 0.125,
+        "terracotta": 1
+    },
+    "orange_terracotta": {
+        "orange dye": 0.125,
+        "terracotta": 1
+    },
+    "magenta_terracotta": {
+        "magenta dye": 0.125,
+        "terracotta": 1
+    },
+    "light_blue_terracotta": {
+        "light blue dye": 0.125,
+        "terracotta": 1
+    },
+    "yellow_terracotta": {
+        "yellow dye": 0.125,
+        "terracotta": 1
+    },
+    "lime_terracotta": {
+        "lime dye": 0.125,
+        "terracotta": 1
+    },
+    "pink_terracotta": {
+        "pink dye": 0.125,
+        "terracotta": 1
+    },
+    "gray_terracotta": {
+        "gray dye": 0.125,
+        "terracotta": 1
+    },
+    "light_gray_terracotta": {
+        "light gray dye": 0.125,
+        "terracotta": 1
+    },
+    "cyan_terracotta": {
+        "cyan dye": 0.125,
+        "terracotta": 1
+    },
+    "purple_terracotta": {
+        "purple dye": 0.125,
+        "terracotta": 1
+    },
+    "blue_terracotta": {
+        "blue dye": 0.125,
+        "terracotta": 1
+    },
+    "brown_terracotta": {
+        "brown dye": 0.125,
+        "terracotta": 1
+    },
+    "green_terracotta": {
+        "green dye": 0.125,
+        "terracotta": 1
+    },
+    "red_terracotta": {
+        "red dye": 0.125,
+        "terracotta": 1
+    },
+    "black_terracotta": {
+        "black dye": 0.125,
+        "terracotta": 1
+    },
+    "packed_ice": {
+        "ice": 9
+    },
+    "granite": {
+        "diorite": 1,
+        "quartz": 1
+    },
+    "polished_granite": {
+        "granite": 4
+    },
+    "diorite": {
+        "cobblestone": 2,
+        "quartz": 2
+    },
+    "polished_diorite": {
+        "diorite": 4
+    },
+    "sea_lantern": {
+        "prismarine shards": 4,
+        "prismarine crystals": 5
+    },
+    "coarse_dirt": {
+        "dirt": 2,
+        "gravel": 2
+    },
+    "andesite": {
+        "cobblestone": 1,
+        "diorite": 1
+    },
+    "polished_andesite": {
+        "andesite": 4
+    },
+    "prismarine": {
+        "prismarine shards": 4
+    },
+    "prismarine_brick": {
+        "prismarine shards": 9
+    },
+    "dark_prismarine": {
+        "prismarine shards": 8,
+        "black dye": 1
+    },
+    "magma_block": {
+        "magma cream": 4
+    },
+    "end_stone_brick": {
+        "endstone": 4
+    },
+    "end_stone_brick_slab": {
+        "end stone brick": 3
+    },
+    "end_stone_brick_wall": {
+        "end stone brick": 6
+    },
+    "bone_block": {
+        "bonemeal": 9
+    },
+    "nether_wart_block": {
+        "nether wart": 9
+    },
+    "purpur_block": {
+        "popped chorus fruit": 4
+    },
+    "purpur_pillar": {
+        "purpur slab": 2
+    },
+    "white_concrete": {
+        "white dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "orange_concrete": {
+        "orange dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "magenta_concrete": {
+        "magenta dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "light_blue_concrete": {
+        "light blue dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "yellow_concrete": {
+        "yellow dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "lime_concrete": {
+        "lime dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "pink_concrete": {
+        "pink dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "gray_concrete": {
+        "gray dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "light_gray_concrete": {
+        "light gray dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "cyan_concrete": {
+        "cyan dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "purple_concrete": {
+        "purple dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "blue_concrete": {
+        "blue dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "brown_concrete": {
+        "brown dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "green_concrete": {
+        "green dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "red_concrete": {
+        "red dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "black_concrete": {
+        "black dye": 0.125,
+        "sand": 0.5,
+        "gravel": 0.5
+    },
+    "blue_ice": {
+        "packed ice": 9
+    },
+    "conduit": {
+        "heart of the sea": 1,
+        "nautilus shell": 8
+    },
+    "dried_kelp_block": {
+        "dried kelp": 9
+    },
+    "wood": {
+        "log": 4
+    },
+    "hyphae": {
+        "stem": 4
+    },
+    "stripped_wood": {
+        "stripped log": 4
+    },
+    "stripped_hyphae": {
+        "stripped stem": 4
+    },
+    "emerald_block": {
+        "emerald": 9
+    },
+    "stonecutter": {
+        "iron": 1,
+        "stone": 3
+    },
+    "coal_block": {
+        "coal": 9
+    },
+    "polished_blackstone_bricks": {
+        "polished blackstone": 4
+    },
+    "chain": {
+        "iron nugget": 2,
+        "iron ingot": 1
+    },
+    "netherite_block": {
+        "netherite ingot": 9
+    },
+    "polished_blackstone": {
+        "blackstone": 4
+    },
+    "chiseled_polished_blackstone": {
+        "polished blackstone slab": 2
+    },
+    "gold_block": {
+        "gold ingot": 9
+    },
+    "white_stained_glass": {
+        "white dye": 0.125,
+        "glass": 1
+    },
+    "orange_stained_glass": {
+        "orange dye": 0.125,
+        "glass": 1
+    },
+    "magenta_stained_glass": {
+        "magenta dye": 0.125,
+        "glass": 1
+    },
+    "light_blue_stained_glass": {
+        "light blue dye": 0.125,
+        "glass": 1
+    },
+    "yellow_stained_glass": {
+        "yellow dye": 0.125,
+        "glass": 1
+    },
+    "lime_stained_glass": {
+        "lime dye": 0.125,
+        "glass": 1
+    },
+    "pink_stained_glass": {
+        "pink dye": 0.125,
+        "glass": 1
+    },
+    "gray_stained_glass": {
+        "gray dye": 0.125,
+        "glass": 1
+    },
+    "light_gray_stained_glass": {
+        "light gray dye": 0.125,
+        "glass": 1
+    },
+    "cyan_stained_glass": {
+        "cyan dye": 0.125,
+        "glass": 1
+    },
+    "purple_stained_glass": {
+        "purple dye": 0.125,
+        "glass": 1
+    },
+    "blue_stained_glass": {
+        "blue dye": 0.125,
+        "glass": 1
+    },
+    "brown_stained_glass": {
+        "brown dye": 0.125,
+        "glass": 1
+    },
+    "green_stained_glass": {
+        "green dye": 0.125,
+        "glass": 1
+    },
+    "red_stained_glass": {
+        "red dye": 0.125,
+        "glass": 1
+    },
+    "black_stained_glass": {
+        "black dye": 0.125,
+        "glass": 1
+    },
+    "bricks": {
+        "bricks": 4
+    },
+    "diamond_block": {
+        "diamond": 9
+    },
+    "bookshelf": {
+        "plank": 6,
+        "books": 3
+    },
+    "snow_block": {
+        "snowballs": 4
+    },
+    "clay": {
+        "clay ball": 4
+    },
+    "jack_o_lantern": {
+        "carved pumpkin": 1,
+        "torch": 1
+    },
+    "glowstone": {
+        "glowstone dust": 4
+    },
+    "lapis_lazuli_block": {
+        "lapis lazuli": 9
+    },
+    "sandstone": {
+        "sand": 4
+    },
+    "cut_sandstone": {
+        "sandstone": 4
+    },
+    "chiseled_sandstone": {
+        "sandstone slab": 2
+    },
+    "melon": {
+        "melon slices": 9
+    },
+    "stone_bricks": {
+        "stone": 4
+    },
+    "mossy_stone_bricks": {
+        "stone bricks": 1,
+        "vines": 1
+    },
+    "iron_block": {
+        "iron ingot": 9
+    },
+    "cartography_table": {
+        "planks": 4,
+        "paper": 2
+    },
+    "white_wool": {
+        "string": 4
+    },
+    "orange_wool": {
+        "orange dye": 0.125,
+        "white wool": 1
+    },
+    "magenta_wool": {
+        "magenta dye": 0.125,
+        "white wool": 1
+    },
+    "light_blue_wool": {
+        "light blue dye": 0.125,
+        "white wool": 1
+    },
+    "yellow_wool": {
+        "yellow dye": 0.125,
+        "white wool": 1
+    },
+    "lime_wool": {
+        "lime dye": 0.125,
+        "white wool": 1
+    },
+    "pink_wool": {
+        "pink dye": 0.125,
+        "white wool": 1
+    },
+    "gray_wool": {
+        "gray dye": 0.125,
+        "white wool": 1
+    },
+    "light_gray_wool": {
+        "light gray dye": 0.125,
+        "white wool": 1
+    },
+    "cyan_wool": {
+        "cyan dye": 0.125,
+        "white wool": 1
+    },
+    "purple_wool": {
+        "purple dye": 0.125,
+        "white wool": 1
+    },
+    "blue_wool": {
+        "blue dye": 0.125,
+        "white wool": 1
+    },
+    "brown_wool": {
+        "brown dye": 0.125,
+        "white wool": 1
+    },
+    "green_wool": {
+        "green dye": 0.125,
+        "white wool": 1
+    },
+    "red_wool": {
+        "red dye": 0.125,
+        "white wool": 1
+    },
+    "black_wool": {
+        "black dye": 0.125,
+        "white wool": 1
+    },
+    "plank": {
+        "log": 0.25
+    },
+    "scaffolding": {
+        "bamboo": 6,
+        "string": 1
+    },
+    "end_crystal": {
+        "glass": 7,
+        "eye of ender": 1,
+        "ghast tear": 1
+    },
+    "ender_chest": {
+        "obsidian": 8,
+        "eye of ender": 1
+    },
+    "trapped_chest": {
+        "chest": 1,
+        "tripwire hook": 1
+    },
+    "item_frame": {
+        "stick": 8,
+        "leather": 1
+    },
+    "bed": {
+        "wool": 3,
+        "planks": 3
+    },
+    "banner": {
+        "wool": 6,
+        "stick": 1
+    },
+    "slime_block": {
+        "slime ball": 9
+    },
+    "shulker_box": {
+        "chest": 1,
+        "shulker shell": 2
+    },
+    "white_shulker_box": {
+        "white dye": 0.125,
+        "shulker box": 1
+    },
+    "orange_shulker_box": {
+        "orange dye": 0.125,
+        "shulker box": 1
+    },
+    "magenta_shulker_box": {
+        "magenta dye": 0.125,
+        "shulker box": 1
+    },
+    "light_blue_shulker_box": {
+        "light blue dye": 0.125,
+        "shulker box": 1
+    },
+    "yellow_shulker_box": {
+        "yellow dye": 0.125,
+        "shulker box": 1
+    },
+    "lime_shulker_box": {
+        "lime dye": 0.125,
+        "shulker box": 1
+    },
+    "pink_shulker_box": {
+        "pink dye": 0.125,
+        "shulker box": 1
+    },
+    "gray_shulker_box": {
+        "gray dye": 0.125,
+        "shulker box": 1
+    },
+    "light_gray_shulker_box": {
+        "light gray dye": 0.125,
+        "shulker box": 1
+    },
+    "cyan_shulker_box": {
+        "cyan dye": 0.125,
+        "shulker box": 1
+    },
+    "purple_shulker_box": {
+        "purple dye": 0.125,
+        "shulker box": 1
+    },
+    "blue_shulker_box": {
+        "blue dye": 0.125,
+        "shulker box": 1
+    },
+    "brown_shulker_box": {
+        "brown dye": 0.125,
+        "shulker box": 1
+    },
+    "green_shulker_box": {
+        "green dye": 0.125,
+        "shulker box": 1
+    },
+    "red_shulker_box": {
+        "red dye": 0.125,
+        "shulker box": 1
+    },
+    "black_shulker_box": {
+        "black dye": 0.125,
+        "shulker box": 1
+    },
+    "campfire": {
+        "stick": 3,
+        "log": 3,
+        "coal/charcoal": 1
+    },
+    "soul_campfire": {
+        "stripped log/stem": 3,
+        "soul sand/soil": 1,
+        "stick": 3
+    },
+    "loom": {
+        "string": 2,
+        "plank": 4
+    },
+    "barrel": {
+        "planks": 6,
+        "wood slab": 2
+    },
+    "smoker": {
+        "furnace": 1,
+        "log/wood/stripped log/stripped wood": 4
+    },
+    "flower_pot": {
+        "bricks": 3
+    },
+    "lantern": {
+        "iron nugget": 8,
+        "torch": 1
+    },
+    "soul_lantern": {
+        "iron nugget": 8,
+        "soul torch": 1
+    },
+    "furnace": {
+        "cobblestone/blackstone": 8
+    },
+    "honey_block": {
+        "honey bottle": 4
+    },
+    "grindstone": {
+        "planks": 2,
+        "sticks": 2,
+        "stone slab": 1
+    },
+    "lodestone": {
+        "chiseled stone brick": 8,
+        "netherite ingot": 1
+    },
+    "beehive": {
+        "planks": 6,
+        "beeswax": 3
+    },
+    "anvil": {
+        "iron block": 3,
+        "iron ingot": 4
+    },
+    "end_rod": {
+        "blaze rod": 0.25,
+        "popped chorus fruit": 0.25
+    },
+    "torch": {
+        "coal/charcoal": 0.25,
+        "stick": 0.25
+    },
+    "soul_torch": {
+        "coal/charcoal": 0.25,
+        "stick": 0.25,
+        "soul sand/soil": 0.25
+    },
+    "chest": {
+        "planks": 8
+    },
+    "painting": {
+        "stick": 8,
+        "wool": 1
+    },
+    "crafting_table": {
+        "planks": 4
+    },
+    "snow": {
+        "snow block": 0.5
+    },
+    "jukebox": {
+        "planks": 8,
+        "diamond": 1
+    },
+    "stained_glass_panes": {
+        "glass pane": 8,
+        "dye": 1
+    },
+    "blast_furnace": {
+        "furnace": 1,
+        "smooth stone": 3,
+        "iron ingot": 5
+    },
+    "enchanting_table": {
+        "diamond": 2,
+        "obsidian": 4,
+        "book": 1
+    },
+    "dropper": {
+        "cobblestone": 7,
+        "redstone": 1
+    },
+    "redstone_lamp": {
+        "glowstone": 1,
+        "redstone": 4
+    },
+    "daylight_sensor": {
+        "glass": 3,
+        "quartz": 3,
+        "wood slab": 3
+    },
+    "piston": {
+        "cobblestone": 4,
+        "planks": 3,
+        "iron": 1,
+        "redstone": 1
+    },
+    "sticky_piston": {
+        "slimeball": 1,
+        "piston": 1
+    },
+    "redstone_block": {
+        "redstone": 9
+    },
+    "hopper": {
+        "iron ingot": 5,
+        "chest": 1
+    },
+    "lectern": {
+        "slab": 4,
+        "bookshelf": 1
+    },
+    "comparator": {
+        "redstone torch": 3,
+        "stone": 3,
+        "quartz": 1
+    },
+    "target_block": {
+        "hay block": 1,
+        "redstone": 4
+    },
+    "tripwire_hook": {
+        "iron ingot": 0.5,
+        "plank": 0.5,
+        "stick": 0.5
+    },
+    "observer": {
+        "cobblestone": 6,
+        "redstone": 2,
+        "quartz": 1
+    },
+    "lever": {
+        "stick": 1,
+        "cobblestone": 1
+    },
+    "redstone_torch": {
+        "stick": 1,
+        "redstone": 1
+    },
+    "iron_trapdoor": {
+        "iron ingot": 4
+    },
+    "repeater": {
+        "redstone torch": 2,
+        "redstone": 1,
+        "stone": 3
+    },
+    "fence_gate": {
+        "planks": 2,
+        "sticks": 4
+    },
+    "note_block": {
+        "redstone": 1,
+        "planks": 8
+    },
+    "dispenser": {
+        "bow": 1,
+        "cobblestone": 7,
+        "redstone": 1
+    },
+    "tnt": {
+        "sand": 4,
+        "gunpowder": 5
+    },
+    "carrot_on_a_stick": {
+        "fishing rod": 1,
+        "carrot": 1
+    },
+    "tnt_minecart": {
+        "tnt": 1,
+        "minecart": 1
+    },
+    "activator_rails": {
+        "iron ingot": 1,
+        "redstone torch": 0.166667,
+        "stick": 0.33334
+    },
+    "hopper_minecart": {
+        "minecart": 1,
+        "hopper": 1
+    },
+    "boat": {
+        "overworld planks": 5
+    },
+    "chest_minecart": {
+        "minecart": 1,
+        "chest": 1
+    },
+    "powered_rails": {
+        "gold ingot": 1,
+        "stick": 0.16667,
+        "redstone": 0.16667
+    },
+    "detector_rails": {
+        "iron ingot": 1,
+        "pressure plate": 0.16667,
+        "redstone": 0.16667
+    },
+    "minecart": {
+        "iron ingot": 5
+    },
+    "furnace_minecart": {
+        "minecart": 1,
+        "furnace": 1
+    },
+    "golden_carrot": {
+        "carrot": 1,
+        "golden nuggets": 8
+    },
+    "cake": {
+        "milk bucket": 3,
+        "sugar": 2,
+        "egg": 1,
+        "wheat": 3
+    },
+    "beetroot_soup": {
+        "beets": 6,
+        "bowl": 1
+    },
+    "rabbit_stew": {
+        "cooked rabbit": 1,
+        "carrot": 1,
+        "baked potato": 1,
+        "mushroom": 1,
+        "bowl": 1
+    },
+    "bread": {
+        "wheat": 3
+    },
+    "mushroom_stew": {
+        "red mushroom": 1,
+        "brown mushroom": 1,
+        "bowl": 1
+    },
+    "cookies": {
+        "cocoa beans": 0.125,
+        "wheat": 0.25
+    },
+    "pumpkin_pie": {
+        "egg": 1,
+        "sugar": 1,
+        "pumpkin": 1
+    },
+    "suspicious_stew": {
+        "red mushroom": 1,
+        "brown mushroom": 1,
+        "bowl": 1,
+        "any flower": 1
+    },
+    "golden_apple": {
+        "apple": 1,
+        "gold ingot": 8
+    },
+    "lead": {
+        "string": 2,
+        "slimeball": 0.5
+    },
+    "flint_and_steel": {
+        "flint": 1,
+        "iron ingot": 1
+    },
+    "hoe": {
+        "stick": 2,
+        "meterial of your choice": 2
+    },
+    "axe": {
+        "stick": 2,
+        "material of your choice": 3
+    },
+    "pickaxe": {
+        "stick": 2,
+        "material of your choice": 3
+    },
+    "shovel": {
+        "stick": 2,
+        "material of your choice": 1
+    },
+    "compass": {
+        "iron ingot": 4,
+        "redstone": 1
+    },
+    "fishing_rod": {
+        "stick": 2,
+        "string": 3
+    },
+    "shears": {
+        "iron ingot": 2
+    },
+    "clock": {
+        "gold ingot": 4,
+        "redstone": 1
+    },
+    "shield": {
+        "planks": 6,
+        "iron": 1
+    },
+    "crossbow": {
+        "tripwire hook": 1,
+        "iron ingot": 1,
+        "stick": 3,
+        "string": 2
+    },
+    "bow": {
+        "sticks": 3,
+        "string": 3
+    },
+    "boots": {
+        "material of your choice": 4
+    },
+    "leggings": {
+        "material of your choice": 7
+    },
+    "helmet": {
+        "material of your choice": 5
+    },
+    "arrow": {
+        "flint": 0.25,
+        "arrow": 0.25,
+        "feather": 0.25
+    },
+    "spectral_arrow": {
+        "arrow": 0.5,
+        "glowstone dust": 2
+    },
+    "sword": {
+        "stick": 1,
+        "material of your choice": 2
+    },
+    "chestplate": {
+        "material of your choice": 8
+    },
+    "glass_bottle": {
+        "glass": 1
+    },
+    "blaze_powder": {
+        "blaze rod": 0.5
+    },
+    "glistering_melon_slice": {
+        "melon slice": 1,
+        "golden nuggets": 8
+    },
+    "magma_cream": {
+        "blaze powder": 1,
+        "slime balls": 1
+    },
+    "brewing_stand": {
+        "cobblestone/blackstone": 3,
+        "blaze rod": 1
+    },
+    "fermented_spider_eye": {
+        "spider eye": 1,
+        "brown mushroom": 1,
+        "sugar": 1
+    },
+    "cauldron": {
+        "iron ingots": 7
+    },
+    "bowl": {
+        "planks": 0.75
+    },
+    "fire_charge": {
+        "coal": 1,
+        "blaze powder": 1,
+        "gunpowder": 1
+    },
+    "firework": {
+        "paper": 1,
+        "gunpowder": 1
+    },
+    "paper": {
+        "sugarcane": 1
+    },
+    "beacon": {
+        "glass": 5,
+        "obsidian": 3,
+        "nether star": 1
+    },
+    "eye_of_ender": {
+        "ender pearl": 1,
+        "blaze powder": 1
+    },
+    "composter": {
+        "wood slab": 7
+    },
+    "empty_map": {
+        "paper": 8,
+        "compass": 1
+    },
+    "bucket": {
+        "iron ingots": 3
+    },
+    "book_and_quill": {
+        "book": 1,
+        "ink sac": 1,
+        "feather": 1
+    },
+    "book": {
+        "paper": 3,
+        "leather": 1
+    },
+    "fence": {
+        "stick": 0.66667,
+        "plank": 1.33334
+    },
+    "stick": {
+        "plank": 0.5
+    },
+    "sign": {
+        "stick": 0.33334,
+        "planks": 2
+    },
+    "rails": {
+        "iron": 0.375,
+        "sticks": 0.0625
+    },
+    "iron_bar": {
+        "iron ingots": 0.375
+    },
+    "trapdoor": {
+        "planks": 3
+    },
+    "white_stained_glass_pane": {
+        "white stained glass": 0.375
+    },
+    "orange_stained_glass_pane": {
+        "orange stained glass": 0.375
+    },
+    "magenta_stained_glass_pane": {
+        "magenta stained glass": 0.375
+    },
+    "light_blue_stained_glass_pane": {
+        "light blue stained glass": 0.375
+    },
+    "yellow_stained_glass_pane": {
+        "yellow stained glass": 0.375
+    },
+    "lime_stained_glass_pane": {
+        "lime stained glass": 0.375
+    },
+    "pink_stained_glass_pane": {
+        "pink stained glass": 0.375
+    },
+    "gray_stained_glass_pane": {
+        "gray stained glass": 0.375
+    },
+    "light_gray_stained_glass_pane": {
+        "light gray stained glass": 0.375
+    },
+    "cyan_stained_glass_pane": {
+        "cyan stained glass": 0.375
+    },
+    "purple_stained_glass_pane": {
+        "purple stained glass": 0.375
+    },
+    "blue_stained_glass_pane": {
+        "blue stained glass": 0.375
+    },
+    "brown_stained_glass_pane": {
+        "brown stained glass": 0.375
+    },
+    "green_stained_glass_pane": {
+        "green stained glass": 0.375
+    },
+    "red_stained_glass_pane": {
+        "red stained glass": 0.375
+    },
+    "black_stained_glass_pane": {
+        "black stained glass": 0.375
+    },
+    "cobblestone_stairs": {
+        "cobblestone": 1.75
+    },
+    "cobblestone_slab": {
+        "cobblestone": 0.5
+    },
+    "cobblestone_wall": {
+        "cobblestone": 1
+    },
+    "brick_stairs": {
+        "brick": 1.75
+    },
+    "brick_slab": {
+        "brick": 0.5
+    },
+    "brick_wall": {
+        "brick": 1
+    },
+    "stone_brick_stairs": {
+        "stone brick": 1.75
+    },
+    "stone_brick_slab": {
+        "stone brick": 0.5
+    },
+    "stone_brick_wall": {
+        "stone brick": 1
+    },
+    "nether_brick_stairs": {
+        "nether brick": 1.75
+    },
+    "nether_brick_slab": {
+        "nether brick": 0.5
+    },
+    "nether_brick_wall": {
+        "nether brick": 1
+    },
+    "sandstone_stairs": {
+        "sandstone": 1.75
+    },
+    "sandstone_slab": {
+        "sandstone": 0.5
+    },
+    "sandstone_wall": {
+        "sandstone": 1
+    },
+    "quartz_stairs": {
+        "quartz block": 1.75
+    },
+    "quartz_slab": {
+        "quartz block": 0.5
+    },
+    "quartz_wall": {
+        "quartz block": 1
+    },
+    "prismarine_stairs": {
+        "prismarine": 1.75
+    },
+    "prismarine_slab": {
+        "prismarine": 0.5
+    },
+    "prismarine_wall": {
+        "prismarine": 1
+    },
+    "prismarine_brick_stairs": {
+        "prismarine brick": 1.75
+    },
+    "prismarine_brick_slab": {
+        "prismarine brick": 0.5
+    },
+    "prismarine_brick_wall": {
+        "prismarine brick": 1
+    },
+    "dark_prismarine_stairs": {
+        "dark prismarine": 1.75
+    },
+    "dark_prismarine_slab": {
+        "dark prismarine": 0.5
+    },
+    "dark_prismarine_wall": {
+        "dark prismarine": 1
+    },
+    "red_sandstone_stairs": {
+        "red sandstone": 1.75
+    },
+    "red_sandstone_slab": {
+        "red sandstone": 0.5
+    },
+    "red_sandstone_wall": {
+        "red sandstone": 1
+    },
+    "mossy_stone_brick_stairs": {
+        "mossy stone brick": 1.75
+    },
+    "mossy_stone_brick_slab": {
+        "mossy stone brick": 0.5
+    },
+    "mossy_stone_brick_wall": {
+        "mossy stone brick": 1
+    },
+    "polished_diorite_stairs": {
+        "polished diorite": 1.75
+    },
+    "polished_diorite_slab": {
+        "polished diorite": 0.5
+    },
+    "polished_diorite_wall": {
+        "polished diorite": 1
+    },
+    "mossy_cobblestone_stairs": {
+        "mossy cobblestone": 1.75
+    },
+    "mossy_cobblestone_slab": {
+        "mossy cobblestone": 0.5
+    },
+    "mossy_cobblestone_wall": {
+        "mossy cobblestone": 1
+    },
+    "end_stone_brick_stairs": {
+        "end stone brick": 1.75
+    },
+    "stone_stairs": {
+        "stone": 1.75
+    },
+    "stone_slab": {
+        "stone": 0.5
+    },
+    "stone_wall": {
+        "stone": 1
+    },
+    "smooth_sandstone_stairs": {
+        "smooth sandstone": 1.75
+    },
+    "smooth_sandstone_slab": {
+        "smooth sandstone": 0.5
+    },
+    "smooth_sandstone_wall": {
+        "smooth sandstone": 1
+    },
+    "smooth_quartz_stairs": {
+        "smooth quartz": 1.75
+    },
+    "smooth_quartz_slab": {
+        "smooth quartz": 0.5
+    },
+    "smooth_quartz_wall": {
+        "smooth quartz": 1
+    },
+    "granite_stairs": {
+        "granite": 1.75
+    },
+    "granite_slab": {
+        "granite": 0.5
+    },
+    "granite_wall": {
+        "granite": 1
+    },
+    "andesite_stairs": {
+        "andesite": 1.75
+    },
+    "andesite_slab": {
+        "andesite": 0.5
+    },
+    "andesite_wall": {
+        "andesite": 1
+    },
+    "red_nether_brick_stairs": {
+        "red nether brick": 1.75
+    },
+    "red_nether_brick_slab": {
+        "red nether brick": 0.5
+    },
+    "red_nether_brick_wall": {
+        "red nether brick": 1
+    },
+    "polished_andesite_stairs": {
+        "polished andesite": 1.75
+    },
+    "polished_andesite_slab": {
+        "polished andesite": 0.5
+    },
+    "polished_andesite_wall": {
+        "polished andesite": 1
+    },
+    "diorite_stairs": {
+        "diorite": 1.75
+    },
+    "diorite_slab": {
+        "diorite": 0.5
+    },
+    "diorite_wall": {
+        "diorite": 1
+    },
+    "blackstone_stairs": {
+        "blackstone": 1.75
+    },
+    "blackstone_slab": {
+        "blackstone": 0.5
+    },
+    "blackstone_wall": {
+        "blackstone": 1
+    },
+    "polished_blackstone_stairs": {
+        "polished_blackstone": 1.75
+    },
+    "polished_blackstone_slab": {
+        "polished_blackstone": 0.5
+    },
+    "polished_blackstone_wall": {
+        "polished_blackstone": 1
+    },
+    "polished_blackstone_brick_stairs": {
+        "polished_blackstone_brick": 1.75
+    },
+    "polished_blackstone_brick_slab": {
+        "polished_blackstone_brick": 0.5
+    },
+    "polished_blackstone_brick_wall": {
+        "polished_blackstone_brick": 1
+    },
+    "spruce_planks": {
+        "spruce log": 0.25
+    },
+    "stripped_spruce_log": {
+        "spruce log": 1
+    },
+    "stripped_spruce_wood": {
+        "stripped spruce log": 0.75
+    },
+    "spruce_wood": {
+        "spruce log": 0.75
+    },
+    "spruce_slab": {
+        "spruce planks": 0.5
+    },
+    "spruce_pressure_plate": {
+        "spruce planks": 0.5
+    },
+    "spruce_fence": {
+        "sticks": 0.66667,
+        "spruce planks": 1.33334
+    },
+    "spruce_trapdoor": {
+        "spruce planks": 3
+    },
+    "spruce_fence_gate": {
+        "spruce_planks": 2,
+        "sticks": 4
+    },
+    "spruce_stairs": {
+        "spruce stairs": 1.75
+    },
+    "spruce_button": {
+        "spruce planks": 1
+    },
+    "spruce_door": {
+        "spruce planks": 2
+    },
+    "spruce_sign": {
+        "spruce planks": 2,
+        "sticks": 0.33334
+    },
+    "oak_planks": {
+        "oak log": 0.25
+    },
+    "stripped_oak_log": {
+        "oak log": 1
+    },
+    "stripped_oak_wood": {
+        "stripped oak log": 0.75
+    },
+    "oak_wood": {
+        "oak log": 0.75
+    },
+    "oak_slab": {
+        "oak planks": 0.5
+    },
+    "oak_pressure_plate": {
+        "oak planks": 0.5
+    },
+    "oak_fence": {
+        "sticks": 0.66667,
+        "oak planks": 1.33334
+    },
+    "oak_trapdoor": {
+        "oak planks": 3
+    },
+    "oak_fence_gate": {
+        "oak_planks": 2,
+        "sticks": 4
+    },
+    "oak_stairs": {
+        "oak stairs": 1.75
+    },
+    "oak_button": {
+        "oak planks": 1
+    },
+    "oak_door": {
+        "oak planks": 2
+    },
+    "oak_sign": {
+        "oak planks": 2,
+        "sticks": 0.33334
+    },
+    "birch_planks": {
+        "birch log": 0.25
+    },
+    "stripped_birch_log": {
+        "birch log": 1
+    },
+    "stripped_birch_wood": {
+        "stripped birch log": 0.75
+    },
+    "birch_wood": {
+        "birch log": 0.75
+    },
+    "birch_slab": {
+        "birch planks": 0.5
+    },
+    "birch_pressure_plate": {
+        "birch planks": 0.5
+    },
+    "birch_fence": {
+        "sticks": 0.66667,
+        "birch planks": 1.33334
+    },
+    "birch_trapdoor": {
+        "birch planks": 3
+    },
+    "birch_fence_gate": {
+        "birch_planks": 2,
+        "sticks": 4
+    },
+    "birch_stairs": {
+        "birch stairs": 1.75
+    },
+    "birch_button": {
+        "birch planks": 1
+    },
+    "birch_door": {
+        "birch planks": 2
+    },
+    "birch_sign": {
+        "birch planks": 2,
+        "sticks": 0.33334
+    },
+    "jungle_planks": {
+        "jungle log": 0.25
+    },
+    "stripped_jungle_log": {
+        "jungle log": 1
+    },
+    "stripped_jungle_wood": {
+        "stripped jungle log": 0.75
+    },
+    "jungle_wood": {
+        "jungle log": 0.75
+    },
+    "jungle_slab": {
+        "jungle planks": 0.5
+    },
+    "jungle_pressure_plate": {
+        "jungle planks": 0.5
+    },
+    "jungle_fence": {
+        "sticks": 0.66667,
+        "jungle planks": 1.33334
+    },
+    "jungle_trapdoor": {
+        "jungle planks": 3
+    },
+    "jungle_fence_gate": {
+        "jungle_planks": 2,
+        "sticks": 4
+    },
+    "jungle_stairs": {
+        "jungle stairs": 1.75
+    },
+    "jungle_button": {
+        "jungle planks": 1
+    },
+    "jungle_door": {
+        "jungle planks": 2
+    },
+    "jungle_sign": {
+        "jungle planks": 2,
+        "sticks": 0.33334
+    },
+    "acacia_planks": {
+        "acacia log": 0.25
+    },
+    "stripped_acacia_log": {
+        "acacia log": 1
+    },
+    "stripped_acacia_wood": {
+        "stripped acacia log": 0.75
+    },
+    "acacia_wood": {
+        "acacia log": 0.75
+    },
+    "acacia_slab": {
+        "acacia planks": 0.5
+    },
+    "acacia_pressure_plate": {
+        "acacia planks": 0.5
+    },
+    "acacia_fence": {
+        "sticks": 0.66667,
+        "acacia planks": 1.33334
+    },
+    "acacia_trapdoor": {
+        "acacia planks": 3
+    },
+    "acacia_fence_gate": {
+        "acacia_planks": 2,
+        "sticks": 4
+    },
+    "acacia_stairs": {
+        "acacia stairs": 1.75
+    },
+    "acacia_button": {
+        "acacia planks": 1
+    },
+    "acacia_door": {
+        "acacia planks": 2
+    },
+    "acacia_sign": {
+        "acacia planks": 2,
+        "sticks": 0.33334
+    },
+    "dark_oak_planks": {
+        "dark oak log": 0.25
+    },
+    "stripped_dark_oak_log": {
+        "dark oak log": 1
+    },
+    "stripped_dark_oak_wood": {
+        "stripped dark oak log": 0.75
+    },
+    "dark_oak_wood": {
+        "dark oak log": 0.75
+    },
+    "dark_oak_slab": {
+        "dark oak planks": 0.5
+    },
+    "dark_oak_pressure_plate": {
+        "dark oak planks": 0.5
+    },
+    "dark_oak_fence": {
+        "sticks": 0.66667,
+        "dark oak planks": 1.33334
+    },
+    "dark_oak_trapdoor": {
+        "dark oak planks": 3
+    },
+    "dark_oak_fence_gate": {
+        "dark oak_planks": 2,
+        "sticks": 4
+    },
+    "dark_oak_stairs": {
+        "dark oak stairs": 1.75
+    },
+    "dark_oak_button": {
+        "dark oak planks": 1
+    },
+    "dark_oak_door": {
+        "dark oak planks": 2
+    },
+    "dark_oak_sign": {
+        "dark oak planks": 2,
+        "sticks": 0.33334
+    },
+    "crimson_planks": {
+        "crimson log": 0.25
+    },
+    "stripped_crimson_log": {
+        "crimson log": 1
+    },
+    "stripped_crimson_wood": {
+        "stripped crimson log": 0.75
+    },
+    "crimson_wood": {
+        "crimson log": 0.75
+    },
+    "crimson_slab": {
+        "crimson planks": 0.5
+    },
+    "crimson_pressure_plate": {
+        "crimson planks": 0.5
+    },
+    "crimson_fence": {
+        "sticks": 0.66667,
+        "crimson planks": 1.33334
+    },
+    "crimson_trapdoor": {
+        "crimson planks": 3
+    },
+    "crimson_fence_gate": {
+        "crimson_planks": 2,
+        "sticks": 4
+    },
+    "crimson_stairs": {
+        "crimson stairs": 1.75
+    },
+    "crimson_button": {
+        "crimson planks": 1
+    },
+    "crimson_door": {
+        "crimson planks": 2
+    },
+    "crimson_sign": {
+        "crimson planks": 2,
+        "sticks": 0.33334
+    },
+    "warped_planks": {
+        "warped log": 0.25
+    },
+    "stripped_warped_log": {
+        "warped log": 1
+    },
+    "stripped_warped_wood": {
+        "stripped warped log": 0.75
+    },
+    "warped_wood": {
+        "warped log": 0.75
+    },
+    "warped_slab": {
+        "warped planks": 0.5
+    },
+    "warped_pressure_plate": {
+        "warped planks": 0.5
+    },
+    "warped_fence": {
+        "sticks": 0.66667,
+        "warped planks": 1.33334
+    },
+    "warped_trapdoor": {
+        "warped planks": 3
+    },
+    "warped_fence_gate": {
+        "warped_planks": 2,
+        "sticks": 4
+    },
+    "warped_stairs": {
+        "warped stairs": 1.75
+    },
+    "warped_button": {
+        "warped planks": 1
+    },
+    "warped_door": {
+        "warped planks": 2
+    },
+    "warped_sign": {
+        "warped planks": 2,
+        "sticks": 0.33334
+    }
 }
