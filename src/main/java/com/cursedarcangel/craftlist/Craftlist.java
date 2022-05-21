@@ -1,10 +1,10 @@
 package com.cursedarcangel.craftlist;
 
 import com.google.gson.Gson;
+
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.command.v1.ClientCommandManager;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.item.ItemStack;
 import net.minecraft.network.MessageType;
 import net.minecraft.text.Text;
 
@@ -16,7 +16,6 @@ import java.util.Map;
 
 import static com.mojang.brigadier.arguments.IntegerArgumentType.getInteger;
 import static com.mojang.brigadier.arguments.IntegerArgumentType.integer;
-import static com.mojang.brigadier.arguments.StringArgumentType.*;
 import static net.fabricmc.fabric.api.client.command.v1.ClientCommandManager.argument;
 import static net.fabricmc.fabric.api.client.command.v1.ClientCommandManager.literal;
 import static net.minecraft.command.argument.ItemStackArgumentType.getItemStackArgument;
@@ -56,7 +55,8 @@ public class Craftlist implements ModInitializer {
 
                                                     int stacks = numOfMats / 64;
                                                     int remainder = (numOfMats % 64);
-                                                    String msg = index.getKey() + " : " + "(" + String.valueOf(numOfMats) + ") " + String.valueOf(stacks) + " stack(s) and " + String.valueOf(remainder) + " items";
+                                                    String total = "(§2" + String.valueOf(numOfMats) + "§r)";
+                                                    String msg = index.getKey() + " : " + total + " " + String.valueOf(stacks) + " stack(s) and " + String.valueOf(remainder) + " items";
                                                     mc.inGameHud.addChatMessage(MessageType.SYSTEM, Text.of(msg), mc.player.getUuid());
                                                 }
                                             }
