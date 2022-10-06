@@ -1664,5 +1664,8 @@
     "warped_sign": {
         "warped planks": 2,
         "sticks": 0.33334
+    },
+    "smooth_stone_slab": {
+        "smooth_stone": 0.5
     }
 }
