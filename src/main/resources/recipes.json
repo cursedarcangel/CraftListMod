@@ -1,4 +1,8 @@
 {
+    "nether_brick_fence": {
+        "nether_brick": 0.33334,
+        "nether_bricks": 0.66667
+    },
     "nether_bricks": {
         "nether brick": 4
     },
@@ -520,8 +524,8 @@
         "log": 0.25
     },
     "scaffolding": {
-        "bamboo": 6,
-        "string": 1
+        "bamboo": 1,
+        "string": 0.166667
     },
     "end_crystal": {
         "glass": 7,
